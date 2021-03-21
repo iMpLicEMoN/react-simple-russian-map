@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.vertical-align {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .au-country-map > div > div:nth-child(2) {
+    display: none;
+  }
+}
