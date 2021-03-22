@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Map from './Map/';
+import App from './App'
 
 ReactDOM.render(
-  // <React.StrictMode>
-    <div className="App">
-      <Map/>
-    </div>,
-  // </React.StrictMode>,
+    <App/>,
   document.getElementById('root')
 );
